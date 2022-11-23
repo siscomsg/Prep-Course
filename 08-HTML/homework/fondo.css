@@ -1,0 +1,27 @@
+
+body{
+    margin:0;
+    line-height: 1.5;
+    color:#333;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color:#fff;
+}
+.content{
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+video{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 250%; /*para modificar el tamaño del video en la pagina*/
+  z-index: -1; /*aqui posicioamos el video por detras de los demas objetos*/
+}
