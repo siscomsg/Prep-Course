@@ -3,6 +3,7 @@ body{
     margin:0;
     line-height: 1.5;
     color:#333;
+    /*background-attachment: fixed;*/
 }
 .header{
     height: 100vh;
@@ -22,6 +23,6 @@ video{
   position: absolute;
   left: 0;
   top: 0;
-  height: 250%; /*para modificar el tamaño del video en la pagina*/
+  /*height: 100%; /*para modificar el tamaño del video en la pagina*/
   z-index: -1; /*aqui posicioamos el video por detras de los demas objetos*/
 }

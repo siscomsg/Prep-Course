@@ -1,0 +1,35 @@
+
+body{
+  /*background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  /*min-height: 100vh;*/
+  background-image:url("../recursos/bg-1.jpg");
+  background-color: #66999; /* Se muestra un color de fondo mientras se está cargando la imagen */
+  background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  /*background-position: center;*/
+}
+.header-content{
+  max-width: 73%; /*ancho del contenido*/
+  margin-left: 18%; /*margen izquiero*/
+  overflow: hidden;
+}
+.descripcion{
+  margin-top: 80px;
+}
+.justificar{
+  text-align: justify;
+}
+.informacion, .descripcion, .datos, .formacion, .idiomas, .experiencia, .habilidades, .hobbies{
+  background-color: rgba(255, 255, 255, 50%);
+}
+#foto{
+  border-style:groove;
+  border-width: 10px;
+}
+legend{
+  color: yellow;
+  font-size: 20px;
+}
+@media screen and (min-width:300px) and (max-width:800px) {
+body{font-size:0.8em;}
+sidebar{display:true;}
+}
