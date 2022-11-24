@@ -1,5 +1,5 @@
 h1{
-    margin-top: 10%;
+    margin-top: 80%;
     margin-bottom: 0;
     padding-bottom: 2rem;
     color:orange;
@@ -16,8 +16,7 @@ h4{
 	height: 600px;
 	background-color:orange;
 	padding: 50px;
-	border-style:solid;
-	border-width: 3px;
+	border:10px solid blue;
 }
 #spanId{
 	margin: 50px;
